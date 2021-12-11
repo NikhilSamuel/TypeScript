@@ -32,6 +32,6 @@ let people: {
 
 //Type inference
 
-let course = 'TypeScript' //Typescript tries infer many types if we dont specify the type
+let course: string | number = "TypeScript"; //using union types
 
-// course = 1233 //error
+course = 1233; //no error
