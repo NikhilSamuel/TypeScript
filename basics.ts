@@ -29,3 +29,9 @@ let people: {
   name: string;
   age: number;
 }[]; //adding the brackets creates an array of people object.
+
+//Type inference
+
+let course = 'TypeScript' //Typescript tries infer many types if we dont specify the type
+
+// course = 1233 //error
