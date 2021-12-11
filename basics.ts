@@ -15,20 +15,20 @@ let hobbies: string[];
 
 hobbies = ["fishing", "frying"];
 
-let person: {
+type Person = {
+  //creting a type alias
   name: string;
   age: number;
 };
+
+let person: Person;
 
 person = {
   name: "Nikhil",
   age: 26,
 };
 
-let people: {
-  name: string;
-  age: number;
-}[]; //adding the brackets creates an array of people object.
+let people: Person[]; //adding the brackets creates an array of people object.
 
 //Type inference
 
